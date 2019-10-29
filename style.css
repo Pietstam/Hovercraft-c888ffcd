@@ -1,49 +1,44 @@
+table,
 td {
-background-color: #808080;
+    border: 1px solid #333;
+    padding: 10px 50px 20px;
 }
 
+thead,
 th {
-    border: thick double #696969;
-    padding: 15px;
+    background-color: lightgrey;
+    color: black;
 }
 
-td {
-text-align: center;
-cursor: pointer; 
-}
-
-.orange {
-background-color: orange; 
-color: green
-}
-
-.purple {
-background-color: #EE82EE;
-}
-
-.blue {
-background-color: #26619c;
-}
-
-.yellow {
-background-color: #FFFF00;
 
 }
+tr{
+	background-color: grey;
+	color: white;
+}
+.hai {
+    background-color: orange;
+    color: white;
+    cursor: grab;
+}
+.hoi{
+	background-color: purple;
+    cursor: grab;
+}
+.rij3{
+	background-color: blue;
+    cursor: grab;
+}
+.rij4{
+	background-color: yellow;
+    cursor: grab;
+
+}
+a[href^="https"]::before {
+  content: " ";
+}
+
 
 td:hover {
-background-color: #C0C0C0;
-}
-
-td,
-th {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 15px;
-}
-
-td {
-    text-align: center;
-}
-
-td {
-    background-color: #808080;
+background-color: pink;
 }
